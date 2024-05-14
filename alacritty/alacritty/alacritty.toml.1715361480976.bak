@@ -1,0 +1,6 @@
+import = [
+  "/usr/local/lib/node_modules/alacritty-themes/themes/Ashes.dark.toml"
+]
+
+[window]
+opacity = 0.8

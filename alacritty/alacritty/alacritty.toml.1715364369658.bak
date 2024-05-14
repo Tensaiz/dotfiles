@@ -1,0 +1,9 @@
+import = [
+  "/usr/local/lib/node_modules/alacritty-themes/themes/Dracula.toml"
+]
+
+[window]
+opacity = 0.8
+
+[font.normal]
+family = "MesloLGS NF"
