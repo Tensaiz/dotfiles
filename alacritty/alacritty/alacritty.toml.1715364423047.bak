@@ -1,9 +1,0 @@
-import = [
-  "/usr/local/lib/node_modules/alacritty-themes/themes/Codeschool.dark.toml"
-]
-
-[window]
-opacity = 0.8
-
-[font.normal]
-family = "MesloLGS NF"

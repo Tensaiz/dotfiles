@@ -1,9 +1,0 @@
-import = [
-  "/usr/local/lib/node_modules/alacritty-themes/themes/Blood-Moon.toml"
-]
-
-[window]
-opacity = 0.8
-
-[font.normal]
-family = "MesloLGS NF"
