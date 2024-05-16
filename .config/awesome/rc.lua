@@ -586,7 +586,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- Autostart Applications
 awful.spawn.with_shell("picom --animations -b")
-awful.spawn.with_shell("wal -R")
 awful.spawn.with_shell("polybar &")
 
 -- Custom beautify config

@@ -1,60 +1,12 @@
 import = [
-  "~/.cache/wal/colors-alacritty.toml"
+    "~/.config/alacritty/current-colors.toml"
 ]
 
 [window]
 opacity = 0.9
 
-[font]
-normal = { family = "MesloLGS NF" }
+[font.normal]
+family = "MesloLGS NF"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[env]
+TERM = "xterm-256color"
