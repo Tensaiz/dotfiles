@@ -281,14 +281,18 @@ globalkeys = gears.table.join(
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto,
               {description = "jump to urgent client", group = "client"}),
     awful.key({ modkey,           }, "Tab",
-        function ()
+       function ()
             awful.client.focus.history.previous()
             if client.focus then
                 client.focus:raise()
             end
         end,
         {description = "go back", group = "client"}),
-
+    awful.key({ modkey, "Shift"   }, "t", function () awful.layout.set(awful.layout.suit.tile)      end,
+    	      {description = "Set layout to tiling", group="screen"}),
+    awful.key({ modkey, "Shift"   }, "f", function () awful.layout.set(awful.layout.suit.floating) end,
+    	      {description = "Set layout to floating", group="screen"}),
+ 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),

@@ -6,3 +6,4 @@ cat ~/.cache/wal/sequences &
 
 zoxide init --cmd cd fish | source
 starship init fish | source
+fish_default_key_bindings
